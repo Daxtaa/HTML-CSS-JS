@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>MailPoet</title>
+
+    <!-- yahan se -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Owl Carousel</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+        /* img {
+            height: 280px;
+        } */
+
+        /* body {
+            background-color: #FFE0D0;
+        } */
+    </style>
+    
+    <style>
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+    
+        .fa:hover {
+            opacity: 0.7;
+        }
+    
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            border-radius: 40%;
+        }
+    
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            border-radius: 40%;
+        }
+    
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+            border-radius: 40%;
+        }
+    
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+            border-radius: 40%;
+        }
+    
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+            border-radius: 40%;
+        }
+    
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+    
+        .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+    
+        .fa-snapchat-ghost {
+            background: #fffc00;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+    
+        .fa-skype {
+            background: #00aff0;
+            color: white;
+        }
+    
+        .fa-android {
+            background: #a4c639;
+            color: white;
+        }
+    
+        .fa-dribbble {
+            background: #ea4c89;
+            color: white;
+        }
+    
+        .fa-vimeo {
+            background: #45bbff;
+            color: white;
+        }
+    
+        .fa-tumblr {
+            background: #2c4762;
+            color: white;
+        }
+    
+        .fa-vine {
+            background: #00b489;
+            color: white;
+        }
+    
+        .fa-foursquare {
+            background: #45bbff;
+            color: white;
+        }
+    
+        .fa-stumbleupon {
+            background: #eb4924;
+            color: white;
+        }
+    
+        .fa-flickr {
+            background: #f40083;
+            color: white;
+            
+        }
+    
+        .fa-yahoo {
+            background: #430297;
+            color: white;
+        }
+    
+        .fa-soundcloud {
+            background: #ff5500;
+            color: white;
+        }
+    
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+    
+        .fa-rss {
+            background: #ff6600;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <!-- <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div> -->
+    <nav class="navBar">
+        
+        <div class="menu-btn">
+            <i class="fas fa-bars fa-2x"></i>
+        </div>
+        <div class="navContainer container">
+            <div class="navLogo ">
+                <h1>reach.me</h1>
+            </div>
+            <div class="navMenuItems">
+                <ul class="menuItems">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Menu</a>
+                    </li>
+                    <li>
+                        <a href="#">Speciaities</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+           
+            <div class="navMenuItems2">
+                <button type="button" class="navBtn1">Log in</button>
+                <button type="button" class="navBtn2">Get started</button>
+            </div>
+        </div>
+    </nav>
+    <hr>
+
+    <section id="showcase">
+        <div class="row justify-content-center container-fluid" id="showcase1">
+            <div class="col-md-5 text-center">
+                <h1 id="showcase1-title">Reach.me Features</h1>
+                <p id="showcase1-para">Join 116,853 subscribers & get original tips and tricks.
+                </p>
+                <button type="button" class="btn-showcase">Learn More</button>
+            </div>
+        </div>
+        <div class="row justify-content-center container-fluid" id="showcase-img">
+            <div class="col-md-6">
+                <img src="./images/facebook2.jpg" class="img-fluid" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="Laptop_section">
+
+        <div class="row container-fluid container justify-content-center mx-auto" id="laptop1">
+        <div class="col-md-5 justify-content-center my-auto " id="check1">
+            <h1>
+                Brand Monitoring
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ullam sequi possimus fugiat, pariatur asperiores at quidem similique doloremque quia!</p>
+            <button type="button" class="btn-showcase">Learn More</button>
+        </div>
+        <div class="col-md-5" id="laptop-img">
+            <img src="./images/Laptop.webp"  class="" alt="">
+        </div>
+        </div>
+
+    </section>
+
+
+    <section class="" id="content">
+       
+    
+        <div class="container-fluid " id="owl">
+            <div class="row ">
+                <div class="col-5 m-auto" id= splitter>
+                    <div class="owl-carousel owl-theme container" id="owl-c">
+                        <div class="item mb-4">
+                            <div class="card border-0 shadow" id="pad">
+                                <img src="images/kid-shop.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <h6 id="slider-title">learn</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="./images/farmers-market.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <h6 id="slider-title">learn</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="./images/flowers.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <h6 id="slider-title">learn</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="./images/jazz-club.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <h6 id="slider-title">learn</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="./images/software.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <h6 id="slider-title">learn</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card border-0 shadow">
+                                <img src="./images/lifestyle-blog.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <div class="card-title text-center">
+                                        <h6 id="slider-title">learn</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+                
+                    <div class="col-md-6 mx-auto justify-content-center my-auto " id="check3">
+                        <h1>
+                            Engagement
+                        </h1>
+                        <p id="check3-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure assumenda placeat velit commodi alias corporis.</p>
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <br>
+                        <button id="check3-btn" type="button" class="btn-showcase">Learn More</button>
+                    </div>
+                
+            </div>
+        </div>
+    
+    
+    
+    </section>
+
+
+    <section id="nike">
+
+        <div class="row container-fluid container align-items-start mx-auto" id="laptop1">
+        <div class="col-md-6 " id="check1">
+            <h1>
+                Multimedia 
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ullam sequi possimus fugiat, pariatur asperiores at
+                quidem similique doloremque quia!</p>
+            <button type="button" class="btn-showcase">Learn More</button>
+        </div>
+            
+        </div>
+
+    </section>
+
+    <section id="lcd">
+        <div class="row justify-content-center container container-fluid " >
+            <div class="col-6">
+                <img src="./images/Lcd.png" id="lcd-img" class="img-fluid" alt="">
+            </div>
+        <div class="col-md-5 justify-content-center my-auto " id="check1">
+            <h1>
+                Social Publishing
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ullam sequi possimus fugiat, pariatur asperiores at
+                quidem similique doloremque quia!</p>
+            <button type="button" class="btn-showcase">Learn More</button>
+        </div>
+        </div>
+
+
+    </section>
+
+
+
+
+    <section id="Test">
+    
+        <div class="row container-fluid container justify-content-center mx-auto" id="laptop1">
+            <div class="col-md-5 justify-content-center my-auto " id="check1">
+                <h1>
+                    Collaboration
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ullam sequi possimus fugiat, pariatur
+                    asperiores at quidem similique doloremque quia!</p>
+                <button type="button" class="btn-showcase">Learn More</button>
+            </div>
+            <div class="col-md-3" >
+                <div class="card" id="card-test">
+                    <img src="./images/p1.png" class="" alt="..." id="test-img2">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer .</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3" >
+                <div class="card" id="card-test">
+                    <img src="./images/p1.png" class="" alt="..." id="test-img1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <section id="showcase-area3">
+        <div class="container-fluid">
+            <div class="row justify-content-center container" id="showcase3">
+                <div class="col-md-5" id="showcase3-img">
+                    <!-- <div class="test"><img src="./images/best-email-plugin-wordpress.webp" class="img-fluid"  alt=""></div> -->
+                    <img src="./images/newsletter-builder-wordpress.webp" class="img-fluid" alt="">
+                </div>
+            <div class="col-md-5 justify-content-center my-auto " id="check1">
+                <h1>
+                    App Directory
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ullam sequi possimus fugiat, pariatur
+                    asperiores at quidem similique doloremque quia!</p>
+                <button type="button" class="btn-showcase">Learn More</button>
+            </div>
+            </div>
+        </div>
+    </section>
+
+<section id="footer-top">
+    <div class="row justify-content-center container-fluid container" id="blog">
+        <div class="col-md-5 text-center" id="blog1">
+            <h1 id="blog-title">Get Started Today</h1>
+            <p id="blog-para">Spend time on your ideas, not styling. </p>
+            <button type="button" class="btn-footer">Learn More</button>
+        </div>
+    </div>
+
+
+</section>
+
+
+    <!-- <footer>
+        <div class="row container-fluid justify-content-center" id="footerr">
+            <div class="col-md-2">
+                <img src="./images/logoo.PNG" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <h1>Company</h1>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Follow Us On Twitter</a></li>
+                        <li><a href="#">On Github..</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-md-2">
+                <div class="row">
+                    <h1>Switch</h1>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Follow Us On Twitter</a></li>
+                        <li><a href="#">On Github..</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <h1>Legal</h1>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Follow Us On Twitter</a></li>
+                        <li><a href="#">On Github..</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="col-md-2">
+                <div class="row">
+                    <h1>Resources</h1>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Follow Us On Twitter</a></li>
+                        <li><a href="#">On Github..</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </footer> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+
+
+
+
+
+    <!-- idhr se -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1 
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+<script>
+    document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.menuItems').classList.toggle('show'));
+</script>
+
+</body>
+
+</html>
